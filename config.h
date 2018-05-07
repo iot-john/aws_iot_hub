@@ -13,7 +13,7 @@
 
 //Wifi settings
 #define ssid "The Internet V3"
-#define password "evalunaboat"
+#define password "*"
 #define wifiTimeout 20000
 
 //Certificates
@@ -23,7 +23,7 @@ const char* CAFile = "/CA.der";
 
 
 //AWS settings
-#define AWS_endpoint "a4zuvk01fn59m.iot.eu-west-1.amazonaws.com"
+#define AWS_endpoint "*.iot.eu-west-1.amazonaws.com"
 #define mqttPortNumber 8883
 
 //Laser distance settings
